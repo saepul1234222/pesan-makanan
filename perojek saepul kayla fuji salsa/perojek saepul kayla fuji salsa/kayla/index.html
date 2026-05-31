@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Kayla Fuji Citra Lestari</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="banner">
+    <div class="banner-text">
+        <h1>Kayla Fuji Citra Lestari</h1>
+        <p>MANAGER OF PT MOONBITE FOODS</p>
+    </div>
+</header>
+
+<main class="container">
+
+    <section class="profile-section">
+        <div class="avatar-container">
+            <img src="kayla.jpeg" alt="Foto Kayla" class="avatar">
+        </div>
+        <div class="biodata">
+            <h3>About Me</h3>
+            <p>UI/UX designer kreatif dengan mata artistik tajam. Spesialis dalam user research dan prototyping.</p>
+            <p><strong>Class:</strong> Class 10 RPL 2 | SMKN 1 SUMEDANG</p>
+            <p><strong>Adress:</strong> Dusun. Kubang, Desa Sukajaya, Kecamatan Sumedang Selatan, Kabupaten Sumedang, Provinsi Jawa Barat.</p>
+        </div>
+    </section>
+
+    <section class="skills-section">
+        <h3>My Skills</h3>
+        <div class="skills-list">
+            <span class="skill-badge">HTML</span>
+            <span class="skill-badge">CSS</span>
+            <span class="skill-badge">DESIGN</span>
+            <span class="skill-badge">CANVA</span>
+        </div>
+    </section>
+
+    <section class="experience-section">
+        <h3>Experience</h3>
+        <div class="experience-grid">
+
+            <div class="card">
+                <img src="fildacil.jpeg" alt="Project 1">
+                <h4>Mengikuti lomba PILDACIL</h4>
+                <p class="company">2018</p>
+                <p>Mengikuti dan meraih Juara Pertama tingkat Desa.</p>
+            </div>
+
+            <div class="card">
+                <img src="pengalaman2.jpg" alt="Project 2">
+                <h4>Mengikuti lomba PILDACIL</h4>
+                <p class="company">Tingkat Kecamatan</p>
+                <p>Mengikuti dan meraih Juara ke-3 lomba PILDACIL, Tingkat Kecamatan. Yang disalurkan oleh Majelis Taklim</p>
+            </div>
+
+            <div class="card">
+                <img src="pengalaman3.jpg" alt="Project 3">
+                <h4>Mengikuti lomba PILDACIL</h4>
+                <p class="company">SD</p>
+                <p>Mengikuti dan meraih Juara Harapan ke-2, tingkat Kecamatan. Pada saat menduduki bangku kelas 1 SD.</p>
+            </div>
+
+            <div class="card">
+                <img src="ciptapuisi.jpeg" alt="Project 3">
+                <h4>Mengikuti lomba CIPTA PUISI</h4>
+                <p class="company">SMP</p>
+                <p>Mengikuti lomba CIPTA PUISI. Walau tidak mendapatkan juara, namun ini menjadi pengalaman yang cukup mengesankan.</p>
+            </div>
+
+            <div class="card">
+                <img src="biantara.jpeg" alt="Project 4">
+                <h4>Mengikuti lomba BIANTARA</h4>
+                <p class="company">SMP</p>
+                <p>Mengikuti lomba BIANTARA. Walau tidak mendapatkan juara, namun ini menjadi pengalaman yang cukup mengesankan.</p>
+            </div>
+
+            <div class="card">
+                <img src="dokter.jpeg" alt="Project 5">
+                <h4>Mengikuti kegiatan DOKCIL (Dokter Kecil)</h4>
+                <p class="company">SD</p>
+                <p>Mengikuti kegiatan Dokter Kecil pada saat menduduki bangku kelas 6 SD.</p>
+            </div>
+
+            <div class="card">
+                <img src="tahfij.jpeg" alt="Project 3">
+                <h4>Mengikuti lomba MENGHAFAL AL-QUR'AN</h4>
+                <p class="company">SD</p>
+                <p>Ikut serta dalam lomba ANAK HEBAT PENGHAFAL AL-QUR'AN yang diadakan oleh Kepala Sekolah SDN MARGASUKA 2.</p>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <h3>Contact Me</h3>
+        <div class="contact-links">
+            <a href="https://wa.me/089698765432" target="_blank" class="contact-btn wa">WhatsApp: 0896-9876-5432</a>
+            <a href="https://instagram.com/username_kamu" target="_blank" class="contact-btn ig">Instagram: @kaylaputri</a>
+            <a href="mailto:kayla@inovasi.com" class="contact-btn email">Email: kayla@inovasi.com</a>
+        </div>
+    </section>
+
+</main>
+
+<button id="scrollTopBtn" title="Kembali ke atas">⬆</button>
+
+<script>
+    const scrollTopBtn = document.getElementById("scrollTopBtn");
+
+    window.onscroll = function () {
+        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+            scrollTopBtn.style.display = "block";
+        } else {
+            scrollTopBtn.style.display = "none";
+        }
+    };
+
+    scrollTopBtn.addEventListener("click", function () {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+</script>
+
+</body>
+</html>

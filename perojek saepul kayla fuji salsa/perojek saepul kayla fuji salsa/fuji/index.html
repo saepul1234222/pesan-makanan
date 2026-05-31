@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">Blue Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#skills">Skill</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1>Halo, Saya <br><span>Fuji Sri Efendi</span></h1>
+                <p>
+                    Saya adalah seorang pelajar yang memiliki ketertarikan mendalam di bidang teknologi,
+                    khususnya dalam mendalami coding dan Rekayasa Perangkat Lunak (RPL).
+                </p>
+                <a href="#gallery" class="btn">Lihat Karya Saya</a>
+            </div>
+
+            <div class="hero-image">
+                <img src="fuji.jpeg" alt="Foto Profil"
+                     onerror="this.src='https://via.placeholder.com/300/4a90e2/ffffff?text=Foto+Kamu'">
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 class="section-title">Tentang Saya</h2>
+
+        <div class="about-content">
+            <div class="biodata-box">
+                <h3>Biodata Diri</h3>
+
+                <table class="biodata-table">
+                    <tr>
+                        <td class="label">Nama Lengkap</td>
+                        <td class="titik-dua">:</td>
+                        <td>Fuji Sri Efendi</td>
+                    </tr>
+
+                    <tr>
+                        <td class="label">Sekolah</td>
+                        <td class="titik-dua">:</td>
+                        <td>SMK Negeri 1 Sumedang</td>
+                    </tr>
+
+                    <tr>
+                        <td class="label">Minat</td>
+                        <td class="titik-dua">:</td>
+                        <td>Web Design, Coding</td>
+                    </tr>
+                </table>
+
+                <p class="about-desc">
+                    Saya siswi jurusan PPLG (Pengembangan Perangkat Lunak dan Gim).
+                    Alasan utama saya masuk jurusan ini karena saya tertarik dengan dunia
+                    teknologi dan ingin menantang diri sendiri untuk keluar dari zona nyaman.
+                    <br><br>
+                    Secara personal, saya adalah orang yang asyik dan menyenangkan jika
+                    sudah mengenal dekat. Di waktu luang, saya sangat suka mendengarkan
+                    musik dan membaca novel untuk menyegarkan pikiran agar tetap kreatif.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="section-title">Skill</h2>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <div class="skill-icon html-icon">5</div>
+                <h3>HTML</h3>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon css-icon">3</div>
+                <h3>CSS</h3>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon js-icon">JS</div>
+                <h3>JavaScript</h3>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2 class="section-title">Portfolio Karya</h2>
+
+        <div class="gallery-grid">
+
+            <div class="gallery-card">
+                <div class="gallery-img">
+                    <img src="sepanduk.jpeg" alt="Desain Spanduk"
+                         onerror="this.src='https://via.placeholder.com/400x250/e6f0fa/4a90e2?text=Desain+Spanduk'">
+                </div>
+
+                <div class="gallery-info">
+                    <h3>Membuat Desain Spanduk</h3>
+                    <p>
+                        Kegiatan pembuatan desain spanduk ini bertujuan untuk membantu
+                        pedagang kaki lima agar memiliki media promosi yang lebih menarik
+                        dan mudah dikenal masyarakat.
+                    </p>
+                </div>
+            </div>
+
+            <div class="gallery-card">
+                <div class="gallery-img">
+                    <img src="kemasan.jpeg" alt="Desain Kemasan"
+                         onerror="this.src='https://via.placeholder.com/400x250/e6f0fa/4a90e2?text=Desain+Kemasan'">
+                </div>
+
+                <div class="gallery-info">
+                    <h3>Membuat Kemasan</h3>
+                    <p>
+                        Kemasan makanan ini dibuat menggunakan CorelDRAW dengan desain
+                        yang kreatif dan menarik agar produk terlihat lebih modern dan
+                        memiliki daya tarik bagi konsumen.
+                    </p>
+                </div>
+            </div>
+
+            <div class="gallery-card">
+                <div class="gallery-img">
+                    <video controls width="100%">
+                        <source src="pidio.mp4" type="video/mp4">
+                        Browser Anda tidak mendukung video.
+                    </video>
+                </div>
+
+                <div class="gallery-info">
+                    <h3>Membuat Video Procedure Text</h3>
+                    <p>
+                        Saya membuat video procedure text tentang cara menyambungkan WiFi.
+                        Video ini berisi langkah-langkah sederhana untuk menghubungkan
+                        perangkat ke jaringan internet dengan mudah dan jelas.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">Hubungi Saya</h2>
+
+        <div class="contact-links">
+            <a href="mailto:ptmoonbitefoods@gmail.com">Email</a>
+            <a href="https://instagram.com/llea_1710" target="_blank">Instagram</a>
+        </div>
+    </section>
+
+    <footer>
+        <p> 2026 Fuji Sri Efendi. Made with 💙</p>
+    </footer>
+
+</body>
+</html>
